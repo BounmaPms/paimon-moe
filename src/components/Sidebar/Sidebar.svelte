@@ -30,6 +30,7 @@
     { id: 'ru', label: 'Русский' },
     { id: 'tr', label: 'Türkçe' },
     { id: 'it', label: 'Italiano' },
+    { id: 'la', label: 'ພາສາລາວ'},
   ];
   $: currentLocale =
     $locale !== null ? languages.find((e) => e.id === $locale.substring(0, 2)) || { id: 'en', label: 'English' } : '';

@@ -26,6 +26,7 @@ const htmlLocaleCode = {
   vi: 'vi',
   tr: 'tr',
   it: 'it',
+  la: 'la,'
 };
 
 const dayjsLocales = {
@@ -44,6 +45,7 @@ const dayjsLocales = {
   vi: () => import('dayjs/locale/vi'),
   tr: () => import('dayjs/locale/tr'),
   it: () => import('dayjs/locale/it'),
+  la: () => import('dayjs/locale/la'),
 };
 
 let isLoaded = false;
@@ -58,7 +60,7 @@ $locale.subscribe((value) => {
   }
 });
 
-const supportedLanguage = ['en', 'id', 'ru', 'ja', 'ko', 'fr', 'zh', 'pt', 'tw', 'es', 'de', 'th', 'vi', 'tr', 'it'];
+const supportedLanguage = ['en', 'id', 'ru', 'ja', 'ko', 'fr', 'zh', 'pt', 'tw', 'es', 'de', 'th', 'vi', 'tr', 'it', 'la'];
 addMessages('en', en);
 addMessages('en', enItems);
 register('id', () => import('./locales/id.json'));
@@ -75,6 +77,7 @@ register('th', () => import('./locales/th.json'));
 register('vi', () => import('./locales/vi.json'));
 register('tr', () => import('./locales/en.json'));
 register('it', () => import('./locales/en.json'));
+register('la', () => import('./locales/la.json'));
 register('id', () => import('./locales/items/id.json'));
 register('ru', () => import('./locales/items/ru.json'));
 register('ja', () => import('./locales/items/ja.json'));
@@ -89,6 +92,7 @@ register('th', () => import('./locales/items/th.json'));
 register('vi', () => import('./locales/items/vi.json'));
 register('tr', () => import('./locales/items/tr.json'));
 register('it', () => import('./locales/items/it.json'));
+register('la', () => import('./locales/items/la.json'));
 
 export async function startClient() {
   init({
