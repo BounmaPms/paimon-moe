@@ -3194,6 +3194,151 @@ export const characters = {
     },
     element: elements.electro,
   },
+  emilie: {
+    id: 'emilie',
+    name: 'Emilie',
+    rarity: 5,
+    weapon: weapons.polearm,
+    stats: {
+      hp: 13568,
+      atk: 335,
+      def: 730,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.lakelight_lily,
+            amount: 3,
+          },
+          {
+            item: itemList.meshing_gear,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.fragment_of_a_golden_melody,
+            amount: 2,
+          },
+          {
+            item: itemList.lakelight_lily,
+            amount: 10,
+          },
+          {
+            item: itemList.meshing_gear,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.fragment_of_a_golden_melody,
+            amount: 4,
+          },
+          {
+            item: itemList.lakelight_lily,
+            amount: 20,
+          },
+          {
+            item: itemList.mechanical_spur_gear,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.fragment_of_a_golden_melody,
+            amount: 8,
+          },
+          {
+            item: itemList.lakelight_lily,
+            amount: 30,
+          },
+          {
+            item: itemList.mechanical_spur_gear,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.fragment_of_a_golden_melody,
+            amount: 12,
+          },
+          {
+            item: itemList.lakelight_lily,
+            amount: 45,
+          },
+          {
+            item: itemList.artificed_dynamic_gear,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.fragment_of_a_golden_melody,
+            amount: 20,
+          },
+          {
+            item: itemList.lakelight_lily,
+            amount: 60,
+          },
+          {
+            item: itemList.artificed_dynamic_gear,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.meshing_gear, itemList.mechanical_spur_gear, itemList.artificed_dynamic_gear],
+      book: [itemList.teachings_of_order, itemList.guide_to_order, itemList.philosophies_of_order],
+      boss: itemList.silken_feather,
+    },
+    element: elements.dendro,
+  },
   eula: {
     id: 'eula',
     name: 'Eula',
@@ -4643,6 +4788,155 @@ export const characters = {
       boss: itemList.dvalins_plume,
     },
     element: elements.anemo,
+  },
+  kachina: {
+    id: 'kachina',
+    name: 'Kachina',
+    rarity: 4,
+    weapon: weapons.polearm,
+    stats: {
+      hp: 11799,
+      atk: 217,
+      def: 792,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 3,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 2,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 10,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 4,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 20,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 8,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 30,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 12,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 45,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 20,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 60,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [
+        itemList.sentrys_wooden_whistle,
+        itemList.warriors_metal_whistle,
+        itemList.saurian_crowned_warriors_golden_whistle,
+      ],
+      book: [itemList.teachings_of_conflict, itemList.guide_to_conflict, itemList.philosophies_of_conflict],
+      boss: itemList.fading_candle,
+    },
+    element: elements.geo,
   },
   kaedehara_kazuha: {
     id: 'kaedehara_kazuha',
@@ -6961,6 +7255,155 @@ export const characters = {
       material: [itemList.whopperflower_nectar, itemList.shimmering_nectar, itemList.energy_nectar],
       book: [itemList.teachings_of_resistance, itemList.guide_to_resistance, itemList.philosophies_of_resistance],
       boss: itemList.ring_of_boreas,
+    },
+    element: elements.hydro,
+  },
+  mualani: {
+    id: 'mualani',
+    name: 'Mualani',
+    rarity: 5,
+    weapon: weapons.catalyst,
+    stats: {
+      hp: 15185,
+      atk: 182,
+      def: 570,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.sprayfeather_gill,
+            amount: 3,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 2,
+          },
+          {
+            item: itemList.sprayfeather_gill,
+            amount: 10,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 4,
+          },
+          {
+            item: itemList.sprayfeather_gill,
+            amount: 20,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 8,
+          },
+          {
+            item: itemList.sprayfeather_gill,
+            amount: 30,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 12,
+          },
+          {
+            item: itemList.sprayfeather_gill,
+            amount: 45,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 20,
+          },
+          {
+            item: itemList.sprayfeather_gill,
+            amount: 60,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [
+        itemList.sentrys_wooden_whistle,
+        itemList.warriors_metal_whistle,
+        itemList.saurian_crowned_warriors_golden_whistle,
+      ],
+      book: [itemList.teachings_of_contention, itemList.guide_to_contention, itemList.philosophies_of_contention],
+      boss: itemList.lightless_mass,
     },
     element: elements.hydro,
   },

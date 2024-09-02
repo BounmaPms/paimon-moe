@@ -13,25 +13,25 @@
   const dispatch = createEventDispatcher();
 
   const featured = {
-    navia: {
-      name: 'Navia',
+    mualani: {
+      name: 'Mualani',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
-    nilou: {
-      name: 'Nilou',
+    kaedehara_kazuha: {
+      name: 'Kaedehara Kazuha',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
   };
-  const bannerId = 300068;
-  const image = 'nilou_navia.png';
+  const bannerId = 300070;
+  const image = 'mualani kazuha.png';
   const width = 800;
-  const height = 405;
+  const height = 343;
 
   let loading = true;
   let user = '';
