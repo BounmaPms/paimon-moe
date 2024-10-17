@@ -13,25 +13,25 @@
   const dispatch = createEventDispatcher();
 
   const featured = {
-    mualani: {
-      name: 'Mualani',
+    chiori: {
+      name: 'Chiori',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
-    kaedehara_kazuha: {
-      name: 'Kaedehara Kazuha',
+    xilonen: {
+      name: 'Xilonen',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
   };
-  const bannerId = 300070;
-  const image = 'mualani kazuha.png';
+  const bannerId = 300072;
+  const image = 'xilonen chiori.png';
   const width = 800;
-  const height = 343;
+  const height = 428;
 
   let loading = true;
   let user = '';
