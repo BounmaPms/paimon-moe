@@ -1742,4 +1742,32 @@ export const itemList = {
     id: 'brilliant_chrysanthemum',
     name: 'Brilliant Chrysanthemum',
   },
+  ensnaring_gaze: {
+    id: 'ensnaring_gaze',
+    name: 'Ensnaring Gaze',
+    rarity: 4,
+  },
+  withering_purpurbloom: {
+    id: 'withering_purpurbloom',
+    name: 'Withering Purpurbloom',
+  },
+  glowing_hornshroom: {
+    id: 'glowing_hornshroom',
+    name: 'Glowing Hornshroom',
+  },
+  refractive_bud: {
+    id: 'refractive_bud',
+    name: 'Refractive Bud',
+    rarity: 2,
+  },
+  bewildering_broadleaf: {
+    id: 'bewildering_broadleaf',
+    name: 'Bewildering Broadleaf',
+    rarity: 3,
+  },
+  illusory_leafcoil: {
+    id: 'illusory_leafcoil',
+    name: 'Illusory Leafcoil',
+    rarity: 4,
+  },
 };
