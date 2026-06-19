@@ -2059,4 +2059,81 @@ export const itemList = {
     name: 'Radiant Antler',
     rarity: 4,
   },
+  cyclic_military_kuuvahki_core: {
+    id: 'cyclic_military_kuuvahki_core',
+    name: 'Cyclic Military Kuuvahki Core',
+    rarity: 4,
+  },
+
+  winter_icelea: {
+    id: 'winter_icelea',
+    name: 'Winter Icelea',
+  },
+  mask_of_the_virtuous_doctor: {
+    id: 'mask_of_the_virtuous_doctor',
+    name: 'Mask of the Virtuous Doctor',
+    rarity: 5,
+  },
+  remnant_of_the_dreadwing: {
+    id: 'remnant_of_the_dreadwing',
+    name: 'Remnant of the Dreadwing',
+    rarity: 4,
+  },
+  pine_amber: {
+    id: 'pine_amber',
+    name: 'Pine Amber',
+  },
+  fractured_eye_of_the_deep_shadow: {
+    id: 'fractured_eye_of_the_deep_shadow',
+    name: 'Fractured Eye of the Deep Shadow',
+    rarity: 2,
+  },
+  aberrant_core_of_the_deep_shadow: {
+    id: 'aberrant_core_of_the_deep_shadow',
+    name: 'Aberrant Core of the Deep Shadow',
+    rarity: 3,
+  },
+  hooked_beak_of_the_deep_shadow: {
+    id: 'hooked_beak_of_the_deep_shadow',
+    name: 'Hooked Beak of the Deep Shadow',
+    rarity: 4,
+  },
+  prismatic_severed_tail: {
+    id: 'prismatic_severed_tail',
+    name: 'Prismatic Severed Tail',
+    rarity: 4,
+  },
+  elixir_of_the_heretic: { id: 'elixir_of_the_heretic', name: 'Elixir of the Heretic' },
+  etherwing_moth: {
+    id: 'etherwing_moth',
+    name: 'Etherwing Moth',
+  },
+  plume_of_the_fallen_watcher: {
+    id: 'plume_of_the_fallen_watcher',
+    name: 'Plume of the Fallen Watcher',
+    rarity: 4,
+  },
+  faded_flaming_hilt: {
+    id: 'faded_flaming_hilt',
+    name: 'Faded Flaming Hilt',
+    rarity: 2,
+  },
+  fractured_flaming_hilt: {
+    id: 'fractured_flaming_hilt',
+    name: 'Fractured Flaming Hilt',
+    rarity: 3,
+  },
+  jeweled_flaming_hilt: {
+    id: 'jeweled_flaming_hilt',
+    name: 'Jeweled Flaming Hilt',
+    rarity: 4,
+  },
+  counterfeit_resin: {
+    id: 'counterfeit_resin',
+    name: 'Counterfeit Resin',
+  },
+  the_cornerstone_of_stars_and_flames: {
+    id: 'the_cornerstone_of_stars_and_flames',
+    name: 'The Cornerstone of Stars and Flames',
+  },
 };

@@ -2904,6 +2904,151 @@ export const characters = {
     },
     element: elements.dendro,
   },
+  columbina: {
+    id: 'columbina',
+    name: 'Columbina',
+    rarity: 5,
+    weapon: weapons.catalyst,
+    stats: {
+      hp: 14695,
+      atk: 96,
+      def: 515,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.winter_icelea,
+            amount: 3,
+          },
+          {
+            item: itemList.slime_condensate,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 2,
+          },
+          {
+            item: itemList.winter_icelea,
+            amount: 10,
+          },
+          {
+            item: itemList.slime_condensate,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 4,
+          },
+          {
+            item: itemList.winter_icelea,
+            amount: 20,
+          },
+          {
+            item: itemList.slime_secretions,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 8,
+          },
+          {
+            item: itemList.winter_icelea,
+            amount: 30,
+          },
+          {
+            item: itemList.slime_secretions,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 12,
+          },
+          {
+            item: itemList.winter_icelea,
+            amount: 45,
+          },
+          {
+            item: itemList.slime_concentrate,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 20,
+          },
+          {
+            item: itemList.winter_icelea,
+            amount: 60,
+          },
+          {
+            item: itemList.slime_concentrate,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.slime_condensate, itemList.slime_secretions, itemList.slime_concentrate],
+      book: [itemList.teachings_of_moonlight, itemList.guide_to_moonlight, itemList.philosophies_of_moonlight],
+      boss: itemList.mask_of_the_virtuous_doctor,
+    },
+    element: elements.hydro,
+  },
   cyno: {
     id: 'cyno',
     name: 'Cyno',
@@ -3773,6 +3918,151 @@ export const characters = {
       boss: itemList.bloodjade_branch,
     },
     element: elements.electro,
+  },
+  durin: {
+    id: 'durin',
+    name: 'Durin',
+    rarity: 5,
+    weapon: weapons.sword,
+    stats: {
+      hp: 12430,
+      atk: 347,
+      def: 822,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.frostlamp_flower,
+            amount: 3,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.cyclic_military_kuuvahki_core,
+            amount: 2,
+          },
+          {
+            item: itemList.frostlamp_flower,
+            amount: 10,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.cyclic_military_kuuvahki_core,
+            amount: 4,
+          },
+          {
+            item: itemList.frostlamp_flower,
+            amount: 20,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.cyclic_military_kuuvahki_core,
+            amount: 8,
+          },
+          {
+            item: itemList.frostlamp_flower,
+            amount: 30,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.cyclic_military_kuuvahki_core,
+            amount: 12,
+          },
+          {
+            item: itemList.frostlamp_flower,
+            amount: 45,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.cyclic_military_kuuvahki_core,
+            amount: 20,
+          },
+          {
+            item: itemList.frostlamp_flower,
+            amount: 60,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.tattered_warrant, itemList.immaculate_warrant, itemList.frost_etched_warrant],
+      book: [itemList.teachings_of_ballad, itemList.guide_to_ballad, itemList.philosophies_of_ballad],
+      boss: itemList.eroded_sunfire,
+    },
+    element: elements.pyro,
   },
   emilie: {
     id: 'emilie',
@@ -5809,6 +6099,151 @@ export const characters = {
     },
     element: elements.anemo,
   },
+  illuga: {
+    id: 'illuga',
+    name: 'Illuga',
+    rarity: 4,
+    weapon: weapons.polearm,
+    stats: {
+      hp: 11962,
+      atk: 191,
+      def: 814,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.pine_amber,
+            amount: 3,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.cyclic_military_kuuvahki_core,
+            amount: 2,
+          },
+          {
+            item: itemList.pine_amber,
+            amount: 10,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.cyclic_military_kuuvahki_core,
+            amount: 4,
+          },
+          {
+            item: itemList.pine_amber,
+            amount: 20,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.cyclic_military_kuuvahki_core,
+            amount: 8,
+          },
+          {
+            item: itemList.pine_amber,
+            amount: 30,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.cyclic_military_kuuvahki_core,
+            amount: 12,
+          },
+          {
+            item: itemList.pine_amber,
+            amount: 45,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.cyclic_military_kuuvahki_core,
+            amount: 20,
+          },
+          {
+            item: itemList.pine_amber,
+            amount: 60,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.broken_drive_shaft, itemList.reinforced_drive_shaft, itemList.precision_drive_shaft],
+      book: [itemList.teachings_of_elysium, itemList.guide_to_elysium, itemList.philosophies_of_elysium],
+      boss: itemList.eroded_horn,
+    },
+    element: elements.geo,
+  },
   ineffa: {
     id: 'ineffa',
     name: 'Ineffa',
@@ -5957,6 +6392,151 @@ export const characters = {
       boss: itemList.eroded_sunfire,
     },
     element: elements.electro,
+  },
+  jahoda: {
+    id: 'jahoda',
+    name: 'Jahoda',
+    rarity: 4,
+    weapon: weapons.bow,
+    stats: {
+      hp: 9646,
+      atk: 223,
+      def: 580,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.portable_bearing,
+            amount: 3,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.lightbearing_scale_feather,
+            amount: 2,
+          },
+          {
+            item: itemList.portable_bearing,
+            amount: 10,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.lightbearing_scale_feather,
+            amount: 4,
+          },
+          {
+            item: itemList.portable_bearing,
+            amount: 20,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.lightbearing_scale_feather,
+            amount: 8,
+          },
+          {
+            item: itemList.portable_bearing,
+            amount: 30,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.lightbearing_scale_feather,
+            amount: 12,
+          },
+          {
+            item: itemList.portable_bearing,
+            amount: 45,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.lightbearing_scale_feather,
+            amount: 20,
+          },
+          {
+            item: itemList.portable_bearing,
+            amount: 60,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.broken_drive_shaft, itemList.reinforced_drive_shaft, itemList.precision_drive_shaft],
+      book: [itemList.teachings_of_vagrancy, itemList.guide_to_vagrancy, itemList.philosophies_of_vagrancy],
+      boss: itemList.ascended_sample_knight,
+    },
+    element: elements.anemo,
   },
   jean: {
     id: 'jean',
@@ -8282,6 +8862,151 @@ export const characters = {
     },
     element: elements.cryo,
   },
+  linnea: {
+    id: 'linnea',
+    name: 'Linnea',
+    rarity: 5,
+    weapon: weapons.bow,
+    stats: {
+      hp: 9895,
+      atk: 144,
+      def: 907,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 3,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 2,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 10,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 4,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 20,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 8,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 30,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 12,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 45,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 20,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 60,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.tattered_warrant, itemList.immaculate_warrant, itemList.frost_etched_warrant],
+      book: [itemList.teachings_of_vagrancy, itemList.guide_to_vagrancy, itemList.philosophies_of_vagrancy],
+      boss: itemList.elixir_of_the_heretic,
+    },
+    element: elements.geo,
+  },
   lisa: {
     id: 'lisa',
     name: 'Lisa',
@@ -8426,6 +9151,152 @@ export const characters = {
       boss: itemList.dvalins_claw,
     },
     element: elements.electro,
+  },
+  lohen: {
+    id: 'lohen',
+    name: 'Lohen',
+    rarity: 5,
+    weapon: weapons.polearm,
+    stats: {
+      hp: 12858,
+      atk: 344,
+      def: 784,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 3,
+          },
+          {
+            item: itemList.firm_arrowhead,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.prismatic_severed_tail,
+            amount: 2,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 10,
+          },
+          {
+            item: itemList.firm_arrowhead,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.prismatic_severed_tail,
+            amount: 4,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 20,
+          },
+          {
+            item: itemList.sharp_arrowhead,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.prismatic_severed_tail,
+            amount: 8,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 30,
+          },
+          {
+            item: itemList.sharp_arrowhead,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.prismatic_severed_tail,
+            amount: 12,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 45,
+          },
+          {
+            item: itemList.weathered_arrowhead,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.prismatic_severed_tail,
+            amount: 20,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 60,
+          },
+          {
+            item: itemList.weathered_arrowhead,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.firm_arrowhead, itemList.sharp_arrowhead, itemList.weathered_arrowhead],
+      book: [itemList.teachings_of_resistance, itemList.guide_to_resistance, itemList.philosophies_of_resistance],
+      boss: itemList.ascended_sample_knight,
+    },
+    element: elements.cryo,
+    new: true,
   },
   lynette: {
     id: 'lynette',
@@ -9739,7 +10610,6 @@ export const characters = {
       boss: itemList.ascended_sample_rook,
     },
     element: elements.dendro,
-    new: true,
   },
   neuvillette: {
     id: 'neuvillette',
@@ -9885,6 +10755,152 @@ export const characters = {
       boss: itemList.everamber,
     },
     element: elements.hydro,
+  },
+  nicole: {
+    id: 'nicole',
+    name: 'Nicole',
+    rarity: 5,
+    weapon: weapons.catalyst,
+    stats: {
+      hp: 10409,
+      atk: 342,
+      def: 563,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.pine_amber,
+            amount: 3,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.remnant_of_the_dreadwing,
+            amount: 2,
+          },
+          {
+            item: itemList.pine_amber,
+            amount: 10,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.remnant_of_the_dreadwing,
+            amount: 4,
+          },
+          {
+            item: itemList.pine_amber,
+            amount: 20,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.remnant_of_the_dreadwing,
+            amount: 8,
+          },
+          {
+            item: itemList.pine_amber,
+            amount: 30,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.remnant_of_the_dreadwing,
+            amount: 12,
+          },
+          {
+            item: itemList.pine_amber,
+            amount: 45,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.remnant_of_the_dreadwing,
+            amount: 20,
+          },
+          {
+            item: itemList.pine_amber,
+            amount: 60,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.tattered_warrant, itemList.immaculate_warrant, itemList.frost_etched_warrant],
+      book: [itemList.teachings_of_elysium, itemList.guide_to_elysium, itemList.philosophies_of_elysium],
+      boss: itemList.counterfeit_resin,
+    },
+    element: elements.pyro,
+    new: true,
   },
   nilou: {
     id: 'nilou',
@@ -10465,6 +11481,152 @@ export const characters = {
       boss: itemList.lightless_silk_string,
     },
     element: elements.electro,
+  },
+  prune: {
+    id: 'prune',
+    name: 'Prune',
+    rarity: 4,
+    weapon: weapons.catalyst,
+    stats: {
+      hp: 9679,
+      atk: 221,
+      def: 580,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.winter_icelea,
+            amount: 3,
+          },
+          {
+            item: itemList.treasure_hoarder_insignia,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 2,
+          },
+          {
+            item: itemList.winter_icelea,
+            amount: 10,
+          },
+          {
+            item: itemList.treasure_hoarder_insignia,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 4,
+          },
+          {
+            item: itemList.winter_icelea,
+            amount: 20,
+          },
+          {
+            item: itemList.silver_raven_insignia,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 8,
+          },
+          {
+            item: itemList.winter_icelea,
+            amount: 30,
+          },
+          {
+            item: itemList.silver_raven_insignia,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 12,
+          },
+          {
+            item: itemList.winter_icelea,
+            amount: 45,
+          },
+          {
+            item: itemList.golden_raven_insignia,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 20,
+          },
+          {
+            item: itemList.winter_icelea,
+            amount: 60,
+          },
+          {
+            item: itemList.golden_raven_insignia,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.treasure_hoarder_insignia, itemList.silver_raven_insignia, itemList.golden_raven_insignia],
+      book: [itemList.teachings_of_resistance, itemList.guide_to_resistance, itemList.philosophies_of_resistance],
+      boss: itemList.mask_of_the_virtuous_doctor,
+    },
+    element: elements.anemo,
+    new: true,
   },
   qiqi: {
     id: 'qiqi',
@@ -13105,6 +14267,312 @@ export const characters = {
     },
     element: elements.dendro,
   },
+  traveler_hydro: {
+    id: 'traveler_hydro',
+    name: 'Traveler',
+    rarity: 5,
+    weapon: weapons.sword,
+    stats: {
+      hp: 10875,
+      atk: 212,
+      def: 683,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.brilliant_diamond_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.windwheel_aster,
+            amount: 3,
+          },
+          {
+            item: itemList.damaged_mask,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.brilliant_diamond_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.windwheel_aster,
+            amount: 10,
+          },
+          {
+            item: itemList.damaged_mask,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.brilliant_diamond_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.windwheel_aster,
+            amount: 20,
+          },
+          {
+            item: itemList.stained_mask,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.brilliant_diamond_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.windwheel_aster,
+            amount: 30,
+          },
+          {
+            item: itemList.stained_mask,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.brilliant_diamond_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.windwheel_aster,
+            amount: 45,
+          },
+          {
+            item: itemList.ominous_mask,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.brilliant_diamond_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.windwheel_aster,
+            amount: 60,
+          },
+          {
+            item: itemList.ominous_mask,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [],
+      book: [
+        itemList.teachings_of_equity,
+        itemList.guide_to_justice,
+        itemList.guide_to_order,
+        itemList.guide_to_equity,
+        itemList.philosophies_of_order,
+        itemList.philosophies_of_equity,
+        itemList.philosophies_of_justice,
+      ],
+      boss: itemList.worldspan_fern,
+    },
+    element: elements.hydro,
+  },
+  traveler_pyro: {
+    id: 'traveler_pyro',
+    name: 'Traveler',
+    rarity: 5,
+    weapon: weapons.sword,
+    stats: {
+      hp: 10875,
+      atk: 212,
+      def: 683,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.brilliant_diamond_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.windwheel_aster,
+            amount: 3,
+          },
+          {
+            item: itemList.damaged_mask,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.brilliant_diamond_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.windwheel_aster,
+            amount: 10,
+          },
+          {
+            item: itemList.damaged_mask,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.brilliant_diamond_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.windwheel_aster,
+            amount: 20,
+          },
+          {
+            item: itemList.stained_mask,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.brilliant_diamond_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.windwheel_aster,
+            amount: 30,
+          },
+          {
+            item: itemList.stained_mask,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.brilliant_diamond_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.windwheel_aster,
+            amount: 45,
+          },
+          {
+            item: itemList.ominous_mask,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.brilliant_diamond_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.windwheel_aster,
+            amount: 60,
+          },
+          {
+            item: itemList.ominous_mask,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [],
+      book: [
+        itemList.teachings_of_contention,
+        itemList.guide_to_kindling,
+        itemList.guide_to_conflict,
+        itemList.guide_to_contention,
+        itemList.philosophies_of_conflict,
+        itemList.philosophies_of_contention,
+        itemList.philosophies_of_kindling,
+      ],
+      boss: itemList.the_cornerstone_of_stars_and_flames,
+    },
+    element: elements.pyro,
+  },
   varesa: {
     id: 'varesa',
     name: 'Varesa',
@@ -13249,6 +14717,151 @@ export const characters = {
       boss: itemList.eroded_scale_feather,
     },
     element: elements.electro,
+  },
+  varka: {
+    id: 'varka',
+    name: 'Varka',
+    rarity: 5,
+    weapon: weapons.claymore,
+    stats: {
+      hp: 12613,
+      atk: 353,
+      def: 795,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.wolfhook,
+            amount: 3,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.prismatic_severed_tail,
+            amount: 2,
+          },
+          {
+            item: itemList.wolfhook,
+            amount: 10,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.prismatic_severed_tail,
+            amount: 4,
+          },
+          {
+            item: itemList.wolfhook,
+            amount: 20,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.prismatic_severed_tail,
+            amount: 8,
+          },
+          {
+            item: itemList.wolfhook,
+            amount: 30,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.prismatic_severed_tail,
+            amount: 12,
+          },
+          {
+            item: itemList.wolfhook,
+            amount: 45,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.prismatic_severed_tail,
+            amount: 20,
+          },
+          {
+            item: itemList.wolfhook,
+            amount: 60,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.broken_drive_shaft, itemList.reinforced_drive_shaft, itemList.precision_drive_shaft],
+      book: [itemList.teachings_of_freedom, itemList.guide_to_freedom, itemList.philosophies_of_freedom],
+      boss: itemList.ascended_sample_rook,
+    },
+    element: elements.anemo,
   },
   venti: {
     id: 'venti',
@@ -15716,6 +17329,151 @@ export const characters = {
       material: [itemList.slime_condensate, itemList.slime_secretions, itemList.slime_concentrate],
       book: [itemList.teachings_of_gold, itemList.guide_to_gold, itemList.philosophies_of_gold],
       boss: itemList.tusk_of_monoceros_caeli,
+    },
+    element: elements.geo,
+  },
+  zibai: {
+    id: 'zibai',
+    name: 'Zibai',
+    rarity: 5,
+    weapon: weapons.sword,
+    stats: {
+      hp: 12919,
+      atk: 225,
+      def: 957,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.glaze_lily,
+            amount: 3,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.remnant_of_the_dreadwing,
+            amount: 2,
+          },
+          {
+            item: itemList.glaze_lily,
+            amount: 10,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.remnant_of_the_dreadwing,
+            amount: 4,
+          },
+          {
+            item: itemList.glaze_lily,
+            amount: 20,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.remnant_of_the_dreadwing,
+            amount: 8,
+          },
+          {
+            item: itemList.glaze_lily,
+            amount: 30,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.remnant_of_the_dreadwing,
+            amount: 12,
+          },
+          {
+            item: itemList.glaze_lily,
+            amount: 45,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.remnant_of_the_dreadwing,
+            amount: 20,
+          },
+          {
+            item: itemList.glaze_lily,
+            amount: 60,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.tattered_warrant, itemList.immaculate_warrant, itemList.frost_etched_warrant],
+      book: [itemList.teachings_of_gold, itemList.guide_to_gold, itemList.philosophies_of_gold],
+      boss: itemList.ascended_sample_queen,
     },
     element: elements.geo,
   },
